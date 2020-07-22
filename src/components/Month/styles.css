@@ -1,0 +1,29 @@
+.month {
+  max-width: 300px;
+  min-height: 60px;
+  border: 2px solid slategrey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-height: 500px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30px;
+  text-align: center;
+  color: white;
+}
+.body {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.name {
+  font-size: 15px;
+  line-height: 17px;
+  color: slategrey;
+  font-weight: bold;
+}
